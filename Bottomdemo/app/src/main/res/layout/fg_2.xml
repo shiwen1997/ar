@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <!--<LinearLayout-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:onClick="goMain"-->
+            <!--android:id="@+id/back"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@mipmap/ic_title_back"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/gxu_1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginRight="50dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="广西大学"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="18dp"-->
+             <!--/>-->
+    <!--</LinearLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/common_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_title"
+        >
+        <TextView
+            android:id="@+id/common_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:text="广西目的地"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/list_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
+

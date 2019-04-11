@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:id="@+id/image_scenery"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            />
+        <!--        android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                android:id="@+id/location_scenery"
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_height="25dp"
+                android:textColor="#000000"
+                android:text="广西大学南大门石碑"
+                android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/check_ar"
+                    android:layout_width="match_parent"
+                    android:layout_weight="4"
+                    android:layout_height="24dp"
+                    android:textColor="#00aeff"
+                    android:text="AR展示"
+                    android:gravity="center"
+                    android:background="@drawable/tv_scenery"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:id="@+id/check_sound"
+                    android:layout_width="match_parent"
+                    android:layout_weight="4"
+                    android:layout_height="24dp"
+                    android:textColor="#00aeff"
+                    android:text="语音导游"
+                    android:gravity="center"
+                    android:background="@drawable/tv_scenery"
+                    android:textSize="12dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/info_scenerty"
+                android:layout_width="match_parent"
+                android:text=""
+                android:layout_height="35dp"
+                android:textColor="#868686"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
